@@ -1,0 +1,10 @@
+#! /bin/bash
+p4c-bmv2 vp4.p4 --json /home/$USER/vp4-test/vp4/l2_switch/conf.json
+p4c-bmv2 vp4.p4 --json /home/$USER/vp4-test/vp4/firewall/conf.json
+p4c-bmv2 vp4.p4 --json /home/$USER/vp4-test/vp4/router/conf.json
+p4c-bmv2 vp4.p4 --json /home/$USER/vp4-test/vp4/arp_proxy/conf.json
+p4c-bmv2 vp4.p4 --json /home/$USER/vp4-test/vp4/nat/conf.json
+p4c-bmv2 vp4.p4 --json /home/$USER/vp4-test/vp4/napt/conf.json
+p4c-bmv2 vp4.p4 --json /home/$USER/vp4-test/vp4/stateful_tcp_firewall/conf.json
+
+p4c-bmv2 vp4.p4 --json /home/$USER/vp4-test/vp4/l2_with_fw/conf.json
